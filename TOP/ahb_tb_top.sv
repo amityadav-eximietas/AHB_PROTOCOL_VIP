@@ -55,9 +55,5 @@ module ahb_tb_top();
     run_test("ahb_incr8_transfer_test");
   end 
 
- // initial begin
- //   #90;
- //   m_ahb_master_vif_0.hrst_n = 1'b0; 
- //  end 
  endmodule
  
